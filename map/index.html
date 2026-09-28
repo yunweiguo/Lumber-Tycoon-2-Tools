@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumber Tycoon 2 Map & Route Planner — LT2 Tools</title><meta name="description" content="Interactive schematic routes to Lost Cave, Volcano, Swamp and Lone Cave in Lumber Tycoon 2.">
+<meta name="theme-color" content="#0d120f"><meta name="robots" content="index,follow">
+<link rel="stylesheet" href="/assets/styles.css">
+</head><body data-page="map">
+<header class="site-header"><div class="container nav">
+<a class="brand" href="/"><span class="brand-mark">LT2</span><span>LT2 Tools</span></a>
+<nav class="nav-links"><a href="/trade-calculator/">Trade</a><a href="/values/">Values</a><a href="/map/">Map</a><a href="/wood-profit/">Wood Profit</a><a href="/lumber-tycoon-2-secret-badge/">Hunt Guide</a></nav>
+</div></header>
+<main id="map-app"><section class="hero"><div class="container"><div class="eyebrow">Lumber Tycoon 2 Route Map</div><h1>A fast route planner, not another wall of text.</h1><p>This schematic MVP highlights important location chains. It is intentionally not drawn to scale; replace it with measured coordinates or a community-verified base map later.</p></div></section>
+<section class="section"><div class="container"><div class="map-shell"><svg viewBox="0 0 1000 560" role="img" aria-label="Schematic Lumber Tycoon 2 route map">
+<rect x="0" y="0" width="1000" height="560" fill="#111a14"/><path d="M135 310 C260 300 300 280 390 255" id="r1" class="route-line"/><path d="M390 255 C510 180 600 120 735 105" id="r2" class="route-line"/><path d="M735 105 C800 80 870 75 920 90" id="r3" class="route-line"/><path d="M135 310 C300 390 390 420 505 410" id="r4" class="route-line"/><path d="M505 410 C620 420 705 390 790 330" id="r5" class="route-line"/><path d="M505 410 C610 470 720 488 835 465" id="r6" class="route-line"/><path d="M505 410 C600 330 670 300 760 250" id="r7" class="route-line"/>
+<g class="map-node" data-node="spawn"><circle cx="135" cy="310" r="30"/><text x="135" y="305" text-anchor="middle" class="map-label">Spawn</text><text x="135" y="327" text-anchor="middle" class="map-small">Start</text></g>
+<g class="map-node" data-node="woodrus"><circle cx="390" cy="255" r="34"/><text x="390" y="250" text-anchor="middle" class="map-label">Wood R Us</text><text x="390" y="273" text-anchor="middle" class="map-small">Vehicle · Light</text></g>
+<g class="map-node" data-node="taiga"><circle cx="735" cy="105" r="35"/><text x="735" y="100" text-anchor="middle" class="map-label">Taiga</text><text x="735" y="123" text-anchor="middle" class="map-small">Snow side</text></g>
+<g class="map-node" data-node="lostcave"><circle cx="920" cy="90" r="36"/><text x="920" y="85" text-anchor="middle" class="map-label">Lost Cave</text><text x="920" y="108" text-anchor="middle" class="map-small">Cave route</text></g>
+<g class="map-node" data-node="bridge"><circle cx="505" cy="410" r="31"/><text x="505" y="405" text-anchor="middle" class="map-label">Bridge</text><text x="505" y="428" text-anchor="middle" class="map-small">Junction</text></g>
+<g class="map-node" data-node="volcano"><circle cx="790" cy="330" r="35"/><text x="790" y="325" text-anchor="middle" class="map-label">Volcano</text><text x="790" y="348" text-anchor="middle" class="map-small">Lava wood</text></g>
+<g class="map-node" data-node="swamp"><circle cx="835" cy="465" r="35"/><text x="835" y="460" text-anchor="middle" class="map-label">Swamp</text><text x="835" y="483" text-anchor="middle" class="map-small">Gold · Zombie</text></g>
+<g class="map-node" data-node="lonecave"><circle cx="760" cy="250" r="35"/><text x="760" y="245" text-anchor="middle" class="map-label">Lone Cave</text><text x="760" y="268" text-anchor="middle" class="map-small">Phantom</text></g>
+</svg></div>
+<div class="map-panel"><div class="card"><label for="route-select">Highlight a route</label><select id="route-select"><option value="lost-cave">Lost Cave</option><option value="volcano">Volcano</option><option value="swamp">Swamp</option><option value="lone-cave">Lone Cave</option></select></div><div class="card map-info"><h2 id="route-title"></h2><p id="route-copy"></p><ul id="route-req"></ul></div></div></div></section></main>
+<footer class="site-footer"><div class="container footer-row"><div>LT2 Tools is an independent fan-made utility site. Not affiliated with Roblox or Defaultio.</div><div>Prices labeled historical are community snapshots, not live market quotes.</div></div></footer>
+<script src="/assets/data.js" defer></script><script src="/assets/app.js" defer></script>
+</body></html>

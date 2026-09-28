@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumber Tycoon 2 Wood Profit Calculator — LT2 Tools</title><meta name="description" content="Estimate Lumber Tycoon 2 wood revenue per trip and per hour using plank values and your route time.">
+<meta name="theme-color" content="#0d120f"><meta name="robots" content="index,follow">
+<link rel="stylesheet" href="/assets/styles.css">
+</head><body data-page="wood">
+<header class="site-header"><div class="container nav">
+<a class="brand" href="/"><span class="brand-mark">LT2</span><span>LT2 Tools</span></a>
+<nav class="nav-links"><a href="/trade-calculator/">Trade</a><a href="/values/">Values</a><a href="/map/">Map</a><a href="/wood-profit/">Wood Profit</a><a href="/lumber-tycoon-2-secret-badge/">Hunt Guide</a></nav>
+</div></header>
+<main id="wood-app"><section class="hero"><div class="container"><div class="eyebrow">Lumber Tycoon 2 Wood Profit Calculator</div><h1>Turn your actual route time into a useful estimate.</h1><p>Raw wood price alone is not enough. Enter how many plank units you can haul and how long your run takes to compare expected sell value per trip and per hour.</p></div></section>
+<section class="section"><div class="container calculator-grid"><div class="card"><div><label for="wood-select">Wood</label><select id="wood-select"></select></div><div style="margin-top:14px"><label for="wood-units">Plank units per trip</label><input id="wood-units" type="number" min="0" step="0.1" value="100"></div><div style="margin-top:14px"><label for="trip-minutes">Round-trip minutes</label><input id="trip-minutes" type="number" min="0.1" step="0.1" value="12"></div><div class="notice">This is a simple revenue model: sell value × units. It does not model sawmill efficiency, travel risk, tree availability or loading losses.</div></div>
+<div><div class="result-hero"><div class="muted">Estimated revenue / trip</div><div class="big" id="wood-trip">$0</div><hr><div class="muted">Estimated revenue / hour</div><div class="kpi" id="wood-hour">$0/hr</div><p class="muted" id="wood-context"></p></div><div class="grid cols-2" style="margin-top:18px"><div class="card"><h3>Use this for</h3><p>Comparing your own routes with the same vehicle and workflow.</p></div><div class="card"><h3>Do not use it for</h3><p>Claiming one wood is universally “best” without accounting for access and collection time.</p></div></div></div></div></section></main>
+<footer class="site-footer"><div class="container footer-row"><div>LT2 Tools is an independent fan-made utility site. Not affiliated with Roblox or Defaultio.</div><div>Prices labeled historical are community snapshots, not live market quotes.</div></div></footer>
+<script src="/assets/data.js" defer></script><script src="/assets/app.js" defer></script>
+</body></html>
